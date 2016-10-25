@@ -37,12 +37,6 @@ public class ReferrerReceiver extends BroadcastReceiver {
             Log.e("Error on referrer:", e.getMessage());
         } finally {
             Log.i("REFERRER", "Finish capture install referrer.");
-//            if (myReferrer.containsKey("gclid")) {
-//                InstallReferrerReceiver receiver = new InstallReferrerReceiver();
-//                receiver.onReceive(context, intent);
-//                Log.i("REFERRER", "Found gclid in the referrer. gclid : " + myReferrer.get("gclid"));
-//            } else {
-//                Log.i("REFERRER", "Found utm_source in the referrer. utm_source : " + myReferrer.get("utm_source"));
             mDataLayer = TagManager.getInstance(context).getDataLayer();
             mDataLayer.push(DataLayer.mapOf("event", "captureReferrer",
                     "screenName", "On Receive Referrer",
