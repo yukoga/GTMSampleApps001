@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "17320046258",
+    "project_id": "ga-sample-apps-with-webview"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17320046258:android:6533be3d52393918",
+        "android_client_info": {
+          "package_name": "com.example.yukoga.gasampleappswithwebview"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABbGreH-Cmlr02VOwGmM5BdJ7y9lsNMAk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-24471868-20"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17320046258:android:6e7dffde3e5ae6a2",
+        "android_client_info": {
+          "package_name": "com.example.yukoga.gtmsampleapps001"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABbGreH-Cmlr02VOwGmM5BdJ7y9lsNMAk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-24471868-20"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
